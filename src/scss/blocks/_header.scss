@@ -1,6 +1,6 @@
 .header {
   padding: 40px 0;
-  background-color: $dark-bg;
+  background-color: $dark;
   &__wrapper {
     display: flex;
     justify-content: space-between;
@@ -13,6 +13,6 @@
   }
   &__actions-link {
     padding: 8px 12px;
-    color: $white;
+    color: $static-white;
   }
 }

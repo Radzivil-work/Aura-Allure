@@ -1,0 +1,65 @@
+.footer {
+  padding: 65px 0 40px;
+  background-color: $dark;
+  &__wrapper {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 40px;
+    border-bottom: 1px solid $gray;
+  }
+  &__title {
+    margin: 12px 0 24px;
+    font-size: 18px;
+    font-weight: 600;
+    color: $static-white;
+    text-transform: uppercase;
+  }
+  &__list {
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+  }
+  &__item-link,
+  &__work-time,
+  &__subscribe-descr {
+    text-transform: uppercase;
+    font-size: 14px;
+    line-height: 24px;
+    color: $gray;
+  }
+  &__subscribe-form {
+    margin-top: 12px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+  }
+  &__subscribe-input {
+    padding: 12px 16px;
+    width: 280px;
+    border: 1px solid $static-white;
+    &::placeholder {
+      color: $static-white;
+      font-size: 12px;
+      line-height: 20px;
+      letter-spacing: 0.6px;
+    }
+  }
+  &__subscribe-submit {
+    padding: 12px;
+    background-color: $static-white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+    color: $dark;
+    cursor: pointer;
+  }
+  &__copyright {
+    padding-top: 12px;
+  }
+  &__copyright-text {
+    color: $static-white;
+    font-size: 12px;
+    font-weight: 800;
+  }
+}
