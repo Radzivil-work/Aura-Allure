@@ -1,0 +1,15 @@
+.nav {
+  &__list {
+    display: flex;
+    gap: 12px;
+  }
+  &__list-link {
+    color: $white;
+    text-transform: uppercase;
+    padding: 8px 12px;
+    transition: all 0.3s;
+    &:hover {
+      color: $accent-color
+    }
+  }
+}
